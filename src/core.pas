@@ -90,7 +90,6 @@ begin
       if Length(LSplit) = 2 then
         Result.Properties.Add(Trim(LSplit[0]), Trim(LSplit[1]));
     end;
-
     Inc(LIndex);
   end;
 end;

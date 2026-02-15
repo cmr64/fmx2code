@@ -59,6 +59,7 @@ LDialog.Filter := 'FMX forms|.fmx|';
 try
   LDialog.Execute;
   var LPath : String := LDialog.FileName;
+  lblLoaded.Text := 'Currently loaded: ' + LPath;
 finally
  LDialog.Free;
 end;

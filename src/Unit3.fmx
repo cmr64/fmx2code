@@ -3,8 +3,8 @@ object Form3: TForm3
   Top = 0
   BorderStyle = Single
   Caption = 'FMX2Code'
-  ClientHeight = 499
-  ClientWidth = 838
+  ClientHeight = 497
+  ClientWidth = 850
   Padding.Left = 5.000000000000000000
   Padding.Top = 5.000000000000000000
   Padding.Right = 5.000000000000000000
@@ -18,26 +18,26 @@ object Form3: TForm3
     Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
     DataDetectorTypes = []
     Align = Right
-    Position.X = 428.000000000000000000
+    Position.X = 440.000000000000000000
     Position.Y = 5.000000000000000000
     Size.Width = 405.000000000000000000
-    Size.Height = 489.000000000000000000
+    Size.Height = 487.000000000000000000
     Size.PlatformDefault = False
     TabOrder = 0
     Viewport.Width = 401.000000000000000000
-    Viewport.Height = 485.000000000000000000
+    Viewport.Height = 483.000000000000000000
   end
   object Layout1: TLayout
     Align = Scale
-    Position.X = 4.970342636108398000
-    Position.Y = 4.603327274322510000
-    Size.Width = 425.460540771484400000
-    Size.Height = 489.793853759765600000
+    Position.X = 5.041515827178955000
+    Position.Y = 4.584877490997314000
+    Size.Width = 431.553009033203100000
+    Size.Height = 487.830780029296900000
     Size.PlatformDefault = False
     TabOrder = 1
     object Layout2: TLayout
       Align = Top
-      Size.Width = 425.460540771484400000
+      Size.Width = 431.553009033203100000
       Size.Height = 50.000000000000000000
       Size.PlatformDefault = False
       TabOrder = 0
@@ -65,7 +65,7 @@ object Form3: TForm3
     object Layout3: TLayout
       Align = Top
       Position.Y = 50.000000000000000000
-      Size.Width = 425.460540771484400000
+      Size.Width = 431.553009033203100000
       Size.Height = 50.000000000000000000
       Size.PlatformDefault = False
       TabOrder = 1
@@ -83,15 +83,15 @@ object Form3: TForm3
         Align = Left
         TabOrder = 1
         Position.X = 41.000000000000000000
-        Size.Width = 376.000000000000000000
+        Size.Width = 386.000000000000000000
         Size.Height = 50.000000000000000000
         Size.PlatformDefault = False
       end
     end
     object lbxObjects: TListBox
       Align = Client
-      Size.Width = 425.460540771484400000
-      Size.Height = 331.793853759765600000
+      Size.Width = 431.553009033203100000
+      Size.Height = 329.830780029296900000
       Size.PlatformDefault = False
       TabOrder = 2
       DisableFocusEffect = True
@@ -99,13 +99,13 @@ object Form3: TForm3
       DefaultItemStyles.GroupHeaderStyle = ''
       DefaultItemStyles.GroupFooterStyle = ''
       OnItemClick = lbxObjectsItemClick
-      Viewport.Width = 421.500000000000000000
-      Viewport.Height = 327.800000000000000000
+      Viewport.Width = 427.600000000000000000
+      Viewport.Height = 325.800000000000000000
     end
     object laySetup: TLayout
       Align = Bottom
-      Position.Y = 431.793853759765600000
-      Size.Width = 425.460540771484400000
+      Position.Y = 429.830780029296900000
+      Size.Width = 431.553009033203100000
       Size.Height = 58.000000000000000000
       Size.PlatformDefault = False
       TabOrder = 3
