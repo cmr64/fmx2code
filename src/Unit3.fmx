@@ -1,0 +1,136 @@
+object Form3: TForm3
+  Left = 0
+  Top = 0
+  BorderStyle = Single
+  Caption = 'FMX2Code'
+  ClientHeight = 499
+  ClientWidth = 838
+  Padding.Left = 5.000000000000000000
+  Padding.Top = 5.000000000000000000
+  Padding.Right = 5.000000000000000000
+  Padding.Bottom = 5.000000000000000000
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object memCode: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    DataDetectorTypes = []
+    Align = Right
+    Position.X = 428.000000000000000000
+    Position.Y = 5.000000000000000000
+    Size.Width = 405.000000000000000000
+    Size.Height = 489.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Viewport.Width = 401.000000000000000000
+    Viewport.Height = 485.000000000000000000
+  end
+  object Layout1: TLayout
+    Align = Scale
+    Position.X = 4.970342636108398000
+    Position.Y = 4.603327274322510000
+    Size.Width = 425.460540771484400000
+    Size.Height = 489.793853759765600000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object Layout2: TLayout
+      Align = Top
+      Size.Width = 425.460540771484400000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object btnLoad: TButton
+        Align = Left
+        Size.Width = 80.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Text = 'Load file'
+        TextSettings.Trimming = None
+        OnClick = btnLoadClick
+      end
+      object lblLoaded: TLabel
+        Align = Left
+        AutoSize = True
+        Position.X = 80.000000000000000000
+        Size.Width = 169.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Currently loaded: None'
+        TabOrder = 1
+      end
+    end
+    object Layout3: TLayout
+      Align = Top
+      Position.Y = 50.000000000000000000
+      Size.Width = 425.460540771484400000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      object Label1: TLabel
+        Align = Left
+        AutoSize = True
+        Size.Width = 41.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Search'
+        TabOrder = 0
+      end
+      object edtSearch: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Left
+        TabOrder = 1
+        Position.X = 41.000000000000000000
+        Size.Width = 376.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+    object lbxObjects: TListBox
+      Align = Client
+      Size.Width = 425.460540771484400000
+      Size.Height = 331.793853759765600000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      DisableFocusEffect = True
+      DefaultItemStyles.ItemStyle = ''
+      DefaultItemStyles.GroupHeaderStyle = ''
+      DefaultItemStyles.GroupFooterStyle = ''
+      OnItemClick = lbxObjectsItemClick
+      Viewport.Width = 421.500000000000000000
+      Viewport.Height = 327.800000000000000000
+    end
+    object laySetup: TLayout
+      Align = Bottom
+      Position.Y = 431.793853759765600000
+      Size.Width = 425.460540771484400000
+      Size.Height = 58.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 3
+      object btnGenerate: TButton
+        Position.X = 169.000000000000000000
+        Position.Y = 28.000000000000000000
+        TabOrder = 0
+        Text = 'Generate'
+        TextSettings.Trimming = None
+        OnClick = btnGenerateClick
+      end
+      object ChkGenerateChildren: TCheckBox
+        Position.X = 8.000000000000000000
+        TabOrder = 1
+        Text = 'Generate children'
+      end
+      object chkGenerateCreate: TCheckBox
+        Position.X = 136.000000000000000000
+        Position.Y = 1.000000000000000000
+        Size.Width = 153.000000000000000000
+        Size.Height = 19.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        Text = 'Generate only properties'
+      end
+    end
+  end
+end
