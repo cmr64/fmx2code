@@ -3,8 +3,7 @@ program fmx2code;
 uses
   System.StartUpCopy,
   FMX.Forms,
-  Unit3 in 'Unit3.pas' {Form3},
-  core in 'core.pas',
+  fmx2code.ui in 'fmx2code.ui.pas' {Form3},
   fmx2code.core in 'fmx2code.core.pas';
 
 {$R *.res}

@@ -212,11 +212,10 @@
         <DelphiCompile Include="$(MainSource)">
             <MainSource>MainSource</MainSource>
         </DelphiCompile>
-        <DCCReference Include="Unit3.pas">
+        <DCCReference Include="fmx2code.ui.pas">
             <Form>Form3</Form>
             <FormType>fmx</FormType>
         </DCCReference>
-        <DCCReference Include="core.pas"/>
         <DCCReference Include="fmx2code.core.pas"/>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
