@@ -4,7 +4,8 @@ uses
   System.StartUpCopy,
   FMX.Forms,
   Unit3 in 'Unit3.pas' {Form3},
-  core in 'core.pas';
+  core in 'core.pas',
+  fmx2code.core in 'fmx2code.core.pas';
 
 {$R *.res}
 

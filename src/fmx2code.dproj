@@ -217,6 +217,7 @@
             <FormType>fmx</FormType>
         </DCCReference>
         <DCCReference Include="core.pas"/>
+        <DCCReference Include="fmx2code.core.pas"/>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>

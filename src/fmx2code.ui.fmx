@@ -53,9 +53,8 @@ object Form3: TForm3
       end
       object lblLoaded: TLabel
         Align = Left
-        AutoSize = True
         Position.X = 80.000000000000000000
-        Size.Width = 169.000000000000000000
+        Size.Width = 347.000000000000000000
         Size.Height = 50.000000000000000000
         Size.PlatformDefault = False
         Text = 'Currently loaded: None'
@@ -110,7 +109,7 @@ object Form3: TForm3
       Size.PlatformDefault = False
       TabOrder = 3
       object btnGenerate: TButton
-        Position.X = 169.000000000000000000
+        Position.X = 136.000000000000000000
         Position.Y = 28.000000000000000000
         TabOrder = 0
         Text = 'Generate'
@@ -130,6 +129,17 @@ object Form3: TForm3
         Size.PlatformDefault = False
         TabOrder = 2
         Text = 'Generate only properties'
+      end
+      object btnClear: TButton
+        Position.X = 224.000000000000000000
+        Position.Y = 28.000000000000000000
+        Size.Width = 105.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 3
+        Text = 'Clear existing code'
+        TextSettings.Trimming = None
+        OnClick = btnClearClick
       end
     end
   end
